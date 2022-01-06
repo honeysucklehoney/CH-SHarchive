@@ -14,16 +14,32 @@
   src: url('dosstart/DosStartDefaultFont.ttf');
 }
 
+@font-face {
+  font-family: 'Lisasketch';
+  src: url('lisa/LisaSketchPaperRaw.ttf');
+}
+
+@font-face {
+  font-family: 'Lisabutton';
+  src: url('lisa/LisaCalcPaperRaw.ttf');
+}
+
+@font-face {
+  font-family: 'Lisaguide';
+  src: url('lisa/LisaGuidePaperRaw.ttf');
+}
+
+@font-face {
+  font-family: 'Lisawoohoo';
+  src: url('lisa/PriamWhamosRaw.ttf');
+}
+
 html{
 width: 9000px;
 height: 100%;
 margin: 0px;
 padding: 0px;
-background: #ff3800;
-/* color: black;
-font-family: helvetica;
-font-size: 14px;
-text-align: left; */
+background: #EEE8AA;
 }
 
 body{
@@ -63,11 +79,20 @@ margin: 0px;
   padding: 12px;
   font-size: 20px;
   font-family: AltoSerif;
+  overflow: scroll;
+
+}
+
+.title {
+
+  margin-left: 10px;
+  margin-top: 25px;
+  font-size: 30px;
 }
 
 table {
 
-height: 100%;
+height: 90%;
 margin: 0px;
 
 }
@@ -87,4 +112,38 @@ table, th, td {
 
 td {
 margin: 20px;
+}
+
+caption {
+
+caption-side:bottom;
+text-align:left;
+background-color:#f4f3f1;
+font-family: Dosstart;
+padding: 10px;
+height: auto;
+}
+
+.collapsible {
+  background-color: #b3b397;
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  font-family: AltoSerif;
+  border-style: outset;
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+  background-color: #b3b397;
+  font-family: AltoSerif;
+  font-size: 15px;
+  margin-left:10px;
+  padding:7px;
+
 }
