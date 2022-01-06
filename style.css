@@ -1,1 +1,90 @@
 
+@font-face {
+  font-family: 'Giana';
+  src: url('giana/Giana.ttf');
+}
+
+@font-face {
+  font-family: 'AltoSerif';
+  src: url('altoserif/AltoSerif.ttf');
+}
+
+@font-face {
+  font-family: 'Dosstart';
+  src: url('dosstart/DosStartDefaultFont.ttf');
+}
+
+html{
+width: 9000px;
+height: 100%;
+margin: 0px;
+padding: 0px;
+background: #ff3800;
+/* color: black;
+font-family: helvetica;
+font-size: 14px;
+text-align: left; */
+}
+
+body{
+
+margin: 0px;
+
+}
+
+.row {
+
+  margin: -0px ;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+}
+
+.column {
+  float: left;
+  height: 800px;
+  margin:0px;
+}
+
+
+.archive {
+
+background-color: #f4f3f1;
+width: 8200px;
+margin: 0px;
+
+}
+
+.welcome-text {
+
+  background-color: #EEE8AA;
+  width: 750px;
+  margin: 0px;
+  padding: 12px;
+  font-size: 20px;
+  font-family: AltoSerif;
+}
+
+table {
+
+height: 100%;
+margin: 0px;
+
+}
+
+th, td {
+
+width: 200px;
+height: 25%;
+
+}
+
+table, th, td {
+
+  border: 1px solid #b3b397;
+
+}
+
+td {
+margin: 20px;
+}
