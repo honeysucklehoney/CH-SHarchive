@@ -120,9 +120,11 @@ caption-side:bottom;
 text-align:left;
 background-color:#f4f3f1;
 font-family: Dosstart;
-padding: 10px;
+padding: 8px;
+font-size: 18px;
 height: auto;
 }
+
 
 .collapsible {
   background-color: #b3b397;
@@ -145,5 +147,84 @@ height: auto;
   font-size: 15px;
   margin-left:10px;
   padding:7px;
+
+}
+
+
+span {
+
+  font-family: Lisasketch;
+  border-style: double;
+  font-size: 15px;
+
+}
+
+.brick {
+
+width: 1600px;
+border-style: none;
+
+}
+
+ td {
+
+  border-style: outset;
+  border-width: 2px;
+  height: 15px;
+  box-shadow: 2px 2px 5px black;
+  text-align: center;
+  font-family: AltoSerif;
+
+}
+
+.hashtags {
+
+text-shadow: 3px 3px 6px black;
+
+
+}
+
+.imagetitle {
+
+font-size: 22px;
+
+}
+
+.text {
+
+/* border-right: solid; */
+font-family: Dosstart;
+column-fill: auto;
+height: 600px;
+width: 800px;
+column-count: 3;
+text-align: justify;
+text-justify: inter-word;
+column-gap: 40px;
+padding-left: 20px;
+/* column-rule:  inset blue; */
+}
+
+blockquote {
+
+  font-family: Lisasketch;
+  font-size: 20px;
+  color: #EEE8AA;
+  text-shadow: 2px 2px 5px red;
+  padding: 0px;
+  margin: 0px;
+}
+
+.boarderline {
+
+font-family: Lisasketch;
+font-size: 20px;
+color: #EEE8AA;
+text-shadow: 2px 2px 5px red;
+position:absolute;
+left: -20px;
+top: 400px;
+transform: rotate(-90deg);
+
 
 }
