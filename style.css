@@ -226,5 +226,27 @@ left: -20px;
 top: 400px;
 transform: rotate(-90deg);
 
+}
+.boarderline2 {
 
+font-family: Lisasketch;
+font-size: 20px;
+color: #EEE8AA;
+text-shadow: 2px 2px 5px red;
+position:absolute;
+left: 260px;
+top: 400px;
+transform: rotate(-90deg);
+}
+
+.boarderline3 {
+
+font-family: Lisasketch;
+font-size: 20px;
+color: #EEE8AA;
+text-shadow: 2px 2px 5px red;
+position:absolute;
+left: 540px;
+top: 400px;
+transform: rotate(-90deg);
 }
