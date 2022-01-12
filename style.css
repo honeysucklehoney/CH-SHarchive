@@ -168,10 +168,10 @@ border-style: none;
 
  td {
 
-  border-style: outset;
+  border-style: outset,#b3b397;
   border-width: 2px;
   height: 15px;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 2px 2px 5px #b3b397;
   text-align: center;
   font-family: AltoSerif;
 
@@ -179,8 +179,8 @@ border-style: none;
 
 .hashtags {
 
-text-shadow: 3px 3px 6px black;
-
+text-shadow: 3px 3px 6px #b3b397;
+font-size: 13px;
 
 }
 
@@ -249,4 +249,43 @@ position:absolute;
 left: 540px;
 top: 400px;
 transform: rotate(-90deg);
+}
+
+.bgtext {
+
+font-family: Giana;
+font-size: 60px;
+line-height: 40px;
+letter-spacing: -50px;
+padding: 15px;
+margin: 0px;
+text-shadow: 2px 2px 5px #b3b397;
+color: #EEE8AA;
+z-index: -4;
+}
+
+.imagebox {
+
+width: 2000px;
+height:800px;
+position: absolute;
+left: 50px;
+top: 150px;
+border-collapse: collapse;
+border-style: none;
+box-shadow: none;
+}
+
+.imageboxcnt {
+
+border-style: none;
+box-shadow: none;
+
+}
+
+.imgbox {
+
+width: 250px;
+height: 400px;
+
 }
