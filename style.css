@@ -92,15 +92,13 @@ margin: 0px;
 
 table {
 
-height: 90%;
+height: 600px;
 margin: 0px;
 
 }
 
 th, td {
 
-width: 180px;
-height: 25%;
 background-color: white;
 
 }
@@ -173,15 +171,20 @@ border-style: none;
   border-width: 2px;
   height: 15px;
   box-shadow: 2px 2px 5px #b3b397;
-  text-align: center;
   font-family: Lisasketch;
-  width: 180px;
-  height: 25%;
+  width: 150px;
+  height: 150px;
   text-align: left;
-  overflow: hidden;
-  overflow-wrap: break-oword;
-  text-overflow: ellipsis;
   font-size: 30px;
+  overflow: hidden;
+  word-break: break-all;
+  margin: 0px;
+  padding: 0px;
+}
+
+td p {
+margin: 0px;
+padding: 0px;
 
 
 }
@@ -296,5 +299,17 @@ box-shadow: none;
 
 width: 250px;
 height: 400px;
+
+}
+
+.filter {
+
+border-style: none;
+padding: 0px;
+margin: 0px;
+text-align: center;
+font-family: Dosstart;
+font-size: 16px;
+line-height: 24px;
 
 }

@@ -45,7 +45,7 @@ function glean(){
         glean[i].style.backgroundRepeat ="repeat";
 
 const para = document.createElement("p");
-const texture = document.createTextNode("888888");
+const texture = document.createTextNode("8888888888888888888888888");
 para.appendChild(texture);
 const element = glean[i];
 element.appendChild(para);
