@@ -99,8 +99,9 @@ margin: 0px;
 
 th, td {
 
-width: 200px;
+width: 180px;
 height: 25%;
+background-color: white;
 
 }
 
@@ -173,7 +174,15 @@ border-style: none;
   height: 15px;
   box-shadow: 2px 2px 5px #b3b397;
   text-align: center;
-  font-family: AltoSerif;
+  font-family: Lisasketch;
+  width: 180px;
+  height: 25%;
+  text-align: left;
+  overflow: hidden;
+  overflow-wrap: break-oword;
+  text-overflow: ellipsis;
+  font-size: 30px;
+
 
 }
 
