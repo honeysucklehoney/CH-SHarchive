@@ -90,7 +90,7 @@ margin: 0px;
   font-size: 30px;
 }
 
-table {
+table.archive_column {
 
 height: 600px;
 margin: 0px;
@@ -135,6 +135,7 @@ height: auto;
   outline: none;
   font-size: 16px;
   font-family: AltoSerif;
+  padding: 5px;
   border-style: outset;
 }
 
@@ -142,10 +143,14 @@ height: auto;
   display: none;
   overflow: hidden;
   background-color: #b3b397;
-  font-family: AltoSerif;
+  font-family: arial;
   font-size: 15px;
+  line-height: 20px;
+  text-align: justify;
   margin-left:10px;
   padding:7px;
+  text-shadow: 2px 2px 5px white;
+
 
 }
 
@@ -162,10 +167,11 @@ span {
 
 width: 1600px;
 border-style: none;
+font-family: 'Giana';
 
 }
 
- td {
+ .grid{
 
   border-style: outset,#b3b397;
   border-width: 2px;
@@ -198,7 +204,9 @@ font-size: 13px;
 
 .imagetitle {
 
-font-size: 22px;
+font-size: 20px;
+padding: 3px;
+
 
 }
 
@@ -214,6 +222,9 @@ text-align: justify;
 text-justify: inter-word;
 column-gap: 40px;
 padding-left: 20px;
+font-size: 18px;
+text-shadow: 3px 3px 6px #b3b397;
+
 /* column-rule:  inset blue; */
 }
 
@@ -222,7 +233,7 @@ blockquote {
   font-family: Lisasketch;
   font-size: 20px;
   color: #EEE8AA;
-  text-shadow: 2px 2px 5px red;
+  text-shadow: 2px 2px 5px #b3b397;
   padding: 0px;
   margin: 0px;
 }
@@ -232,10 +243,10 @@ blockquote {
 font-family: Lisasketch;
 font-size: 20px;
 color: #EEE8AA;
-text-shadow: 2px 2px 5px red;
+text-shadow: 2px 2px 5px #b3b397;
 position:absolute;
 left: -20px;
-top: 400px;
+top: 425px;
 transform: rotate(-90deg);
 
 }
@@ -244,10 +255,10 @@ transform: rotate(-90deg);
 font-family: Lisasketch;
 font-size: 20px;
 color: #EEE8AA;
-text-shadow: 2px 2px 5px red;
+text-shadow: 2px 2px 5px #b3b397;
 position:absolute;
 left: 260px;
-top: 400px;
+top: 425px;
 transform: rotate(-90deg);
 }
 
@@ -256,10 +267,10 @@ transform: rotate(-90deg);
 font-family: Lisasketch;
 font-size: 20px;
 color: #EEE8AA;
-text-shadow: 2px 2px 5px red;
+text-shadow: 2px 2px 5px #b3b397;
 position:absolute;
 left: 540px;
-top: 400px;
+top: 425px;
 transform: rotate(-90deg);
 }
 
@@ -319,5 +330,32 @@ line-height: 24px;
 border: 1px solid black;
 padding: 5px;
 background-color: white;
+
+}
+
+.border{
+
+   border-style: outset,#b3b397;
+   border-width: 2px;
+   box-shadow: 2px 2px 5px #b3b397;
+   height: 15px;
+   width: 10px;
+   text-align: center;
+   font-size: 25px;
+   background-color: #EEE8AA;
+   font-family: 'AltoSerif';
+   padding: 3px;
+
+
+ }
+
+#gohome {
+
+width: 100px;
+height: 100px;
+overflow: hidden;
+padding: 0px;
+position: absolute;
+bottom: 0px;
 
 }
