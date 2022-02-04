@@ -617,3 +617,59 @@ element.appendChild(para);
 
     }
 }
+
+function ring(){
+
+  var display = document.getElementById('display');
+  display.textContent += "+ ring";
+
+
+  var ring = document.getElementsByClassName('ring');
+    for (var i=0; i<ring.length; i++) {
+
+      if (ring[i].style.backgroundRepeat === "no-repeat") {
+        ring[i].style.backgroundImage = "none";
+        ring[i].style.backgroundRepeat ="repeat";
+
+const para = document.createElement("p");
+const texture = document.createTextNode("9999999999999999999999999");
+para.appendChild(texture);
+const element = ring[i];
+element.appendChild(para);
+
+      }
+      else {
+        // location.reload();
+
+      }
+
+    }
+}
+
+function crownofthorns(){
+
+  var display = document.getElementById('display');
+  display.textContent += "+ crownofthorns";
+
+
+  var crownofthorns = document.getElementsByClassName('crownofthorns');
+    for (var i=0; i<crownofthorns.length; i++) {
+
+      if (crownofthorns[i].style.backgroundRepeat === "no-repeat") {
+        crownofthorns[i].style.backgroundImage = "none";
+        crownofthorns[i].style.backgroundRepeat ="repeat";
+
+const para = document.createElement("p");
+const texture = document.createTextNode("FFFFFFFFFFFFFFFFFFFFFFFFF");
+para.appendChild(texture);
+const element = crownofthorns[i];
+element.appendChild(para);
+
+      }
+      else {
+        // location.reload();
+
+      }
+
+    }
+}
